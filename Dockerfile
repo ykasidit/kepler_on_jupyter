@@ -22,4 +22,4 @@ WORKDIR $WORK_DIR
 EXPOSE 8888
 
 # Set default command to launch JupyterLab
-ENTRYPOINT ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--NotebookApp.token=${LAB_PASS}", "--NotebookApp.base_url=${BASE_URL}"]
+ENTRYPOINT ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888"]
